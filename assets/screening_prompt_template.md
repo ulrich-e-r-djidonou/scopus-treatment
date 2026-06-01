@@ -7,7 +7,7 @@ Tu es analyste pour une revue de litterature systematique. Tache : classer des a
 
 CONTEXTE DE L'ETUDE CIBLE
 {{RESEARCH_CONTEXT}}
-(ex : L'auteur etudie la relation entre l'inegalite de revenus et les emissions de CO2/GES au niveau provincial du Canada. Il cherche les etudes methodologiquement comparables.)
+(ex : The author studies the link between income inequality and CO2/GHG emissions at the sub-national level within a single country, and is looking for methodologically comparable studies.)
 
 FICHIER A LIRE
 Lis le fichier JSON : {{CHUNK_PATH}}

@@ -4,7 +4,7 @@ final.json + final.csv. Editer la CONFIG et les dictionnaires de correction."""
 import json, re, csv, urllib.parse
 
 # ===================== CONFIG (a adapter) =====================
-HOME_COUNTRY = "canada"   # bonus de pertinence si l'etude porte sur ce pays (minuscules)
+HOME_COUNTRY = ""   # optionnel : bonus de pertinence si l'etude porte sur ce pays (minuscules, ex: "france")
 PROJECT_TAG = "articles"  # utilise dans le nom de fichier de sortie Excel par build_outputs
 # Regex de centralite du sujet (titre = signal fort) :
 TOPIC_TITLE_RE = re.compile(

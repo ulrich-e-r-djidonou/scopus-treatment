@@ -3,8 +3,7 @@
 securite faux-negatifs (concern.json). Adapter TOPIC_RE et SCALE_RE au sujet."""
 import json, glob, re, collections
 
-# --- Regex a adapter au sujet et a l'echelle voulue ---
-# Exemple par defaut : inegalite de revenus x emissions, echelle sous-nationale.
+# --- Regex a adapter au sujet et a l'echelle voulue (exemples ci-dessous, a remplacer) ---
 TOPIC_RE = re.compile(
     r"income inequal|wealth inequal|economic inequal|income gap|income distribut|"
     r"distribution of income|gini|wage inequal|earnings inequal|top \d+%|"

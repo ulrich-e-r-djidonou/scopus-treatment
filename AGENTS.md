@@ -37,12 +37,12 @@ L'agent de tri doit :
 {
   "n": 42,
   "decision": "INCLURE_SOUSNATIONAL",
-  "country": "Canada",
+  "country": "United States",
   "geo_level": "sous-national",
-  "geo_unit": "provinces",
-  "inequality_measure": "Gini de revenu",
-  "env_measure": "CO2",
-  "reason": "Étudie la relation entre inégalité de revenu provinciale et émissions CO2 au Canada."
+  "geo_unit": "states",
+  "inequality_measure": "Gini coefficient",
+  "env_measure": "CO2 emissions",
+  "reason": "Studies the link between income inequality at state level and CO2 emissions in a single country."
 }
 ```
 
