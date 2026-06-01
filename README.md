@@ -26,11 +26,12 @@ Transforms Scopus search results into a validated list of relevant articles, wit
 
 ### How to export from Scopus
 
-There are two ways to get your data into the pipeline. **Case 1 is strongly recommended.**
+There are two ways to get your data into the pipeline. Choose based on your situation.
 
-#### Case 1 — Bulk CSV export (recommended)
+#### Case 1 — Bulk CSV export
 
 Scopus allows exporting up to 2 000 articles at once as a CSV file, including abstracts.
+Note: Scopus sometimes truncates abstracts in CSV exports. If abstracts appear incomplete, use Case 2 instead.
 
 Steps:
 1. Run your Scopus search.
@@ -166,11 +167,12 @@ Ulrich Djidonou, research economist.
 
 ### Comment exporter depuis Scopus
 
-Il y a deux façons d'alimenter le pipeline. **Le cas 1 est fortement recommandé.**
+Il y a deux façons d'alimenter le pipeline. Choisir selon la situation.
 
-#### Cas 1 — Export CSV en masse (recommandé)
+#### Cas 1 — Export CSV en masse
 
 Scopus permet d'exporter jusqu'à 2 000 articles à la fois en CSV, abstracts inclus.
+Note : Scopus tronque parfois les abstracts dans l'export CSV. Si les abstracts semblent incomplets, utiliser le Cas 2.
 
 Étapes :
 1. Lancer la recherche Scopus.
