@@ -17,7 +17,7 @@ Transforme des pages de résultats Scopus sauvegardées (format texte/markdown) 
 
 L'utilisateur a sauvegardé plusieurs pages de résultats Scopus en texte/markdown et veut isoler, parmi des centaines ou milliers d'articles, ceux qui correspondent à son sujet de recherche (variables cibles + échelle géographique).
 
-Exemple traité : 1 407 articles sur "inégalité de revenus x émissions CO2", échelle sous-nationale et nationale, un seul pays. Résultat : 125 articles retenus.
+Fonctionne sur des corpus de quelques centaines à plusieurs milliers d'articles, pour tout sujet combinant deux variables (économique, environnementale, sociale, etc.) et une échelle géographique précise.
 
 ## Prérequis
 
