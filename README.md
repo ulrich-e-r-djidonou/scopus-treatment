@@ -26,7 +26,7 @@ Transforms Scopus search results into a validated list of relevant articles, wit
 
 ### How to export from Scopus
 
-> **Why manual export is required:** AI agents (Claude, Codex, Copilot, etc.) cannot access Scopus directly. Scopus requires an active university login, and access is typically routed through an institutional proxy (e.g. `ezproxy.usherbrooke.ca`) with a certificate that external tools cannot verify. There is no workaround: the export must be done manually by the researcher.
+> **Why manual export is required:** AI agents (Claude, Codex, Copilot, etc.) cannot access Scopus directly. Scopus requires an active university login, and access is typically routed through an institutional proxy (e.g. `ezproxy.university.edu`) with a certificate that external tools cannot verify. There is no workaround: the export must be done manually by the researcher.
 
 There are two ways to get your data into the pipeline. Choose based on your situation.
 
@@ -169,7 +169,7 @@ Ulrich Djidonou, research economist.
 
 ### Comment exporter depuis Scopus
 
-> **Pourquoi l'export manuel est obligatoire :** les agents IA (Claude, Codex, Copilot, etc.) ne peuvent pas accéder à Scopus directement. Scopus exige une session universitaire active, et l'accès passe généralement par un proxy institutionnel (ex. `ezproxy.usherbrooke.ca`) dont le certificat SSL n'est pas reconnu par les outils externes. Il n'y a pas de contournement : l'export doit être fait manuellement par le chercheur.
+> **Pourquoi l'export manuel est obligatoire :** les agents IA (Claude, Codex, Copilot, etc.) ne peuvent pas accéder à Scopus directement. Scopus exige une session universitaire active, et l'accès passe généralement par un proxy institutionnel (ex. `ezproxy.university.edu`) dont le certificat SSL n'est pas reconnu par les outils externes. Il n'y a pas de contournement : l'export doit être fait manuellement par le chercheur.
 
 Il y a deux façons d'alimenter le pipeline. Choisir selon la situation.
 
