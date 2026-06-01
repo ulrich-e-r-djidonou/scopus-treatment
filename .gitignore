@@ -1,0 +1,47 @@
+# Donnees brutes Scopus (non commitees : donnees de l'utilisateur)
+Scopus_*.md
+Scopus_*_files/
+
+# Fichiers intermediaires du pipeline
+articles_raw.json
+articles_raw.csv
+chunks/
+results/
+retenus.json
+concern.json
+doi_map.json
+final.json
+final.csv
+_tmp_*.txt
+
+# Livrables generes
+*.xlsx
+*.docx
+Synthese_*.md
+Articles_*.md
+INSTRUCTIONS.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
