@@ -40,9 +40,7 @@ L'agent de tri doit :
   "country": "United States",
   "geo_level": "sous-national",
   "geo_unit": "states",
-  "inequality_measure": "Gini coefficient",
-  "env_measure": "CO2 emissions",
-  "reason": "Studies the link between income inequality at state level and CO2 emissions in a single country."
+  "reason": "Studies xxxxxxxxxxxxxx in a single country."
 }
 ```
 
@@ -50,7 +48,7 @@ L'agent de tri doit :
 
 ### Dans `scripts/consolidate.py` (lignes 8-21)
 Adapter les regex au sujet de l'étude :
-- `TOPIC_RE` : mots-clés de la variable d'inégalité
+- `TOPIC_RE` : mots-clés de la variable étudiée
 - `ENV_RE` : mots-clés de la variable environnementale
 - `SCALE_RE` : mots-clés de l'échelle sous-nationale voulue
 - `MULTI_RE` : signaux d'exclusion (multi-pays, panels internationaux)
@@ -89,4 +87,4 @@ build_outputs.py
 ## Schéma JSON de final.json (référence)
 
 Chaque objet du tableau `final.json` contient :
-`n, decision, tier, score, country, geo_level, geo_unit, inequality_measure, env_measure, reason, title, authors, source, volume, year, doctype, doublon_possible, doi, access_link, link_type, abstract`
+`n, decision, tier, score, country, geo_level, geo_unit, reason, title, authors, source, volume, year, doctype, doublon_possible, doi, access_link, link_type, abstract`
